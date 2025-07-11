@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: genre_lookup
+    description: "Mapping between TMDb genre_id and genre_name from static seed"
+
+  - name: top_movies
+    description: "Top-rated movies joined with genre names, filtered by vote_average"
+
+  - name: top_genres
+    description: "Genres ranked by average rating and movie count"
+
+  - name: yearly_avg_ratings
+    description: "Average rating and movie count by release year"

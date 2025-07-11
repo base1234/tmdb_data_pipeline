@@ -1,0 +1,32 @@
+name: dbt_tmdb
+version: '1.0'
+config-version: 2
+
+profile: tmdb_analytics
+
+# Where dbt looks for models
+model-paths: ["models"]
+seed-paths: ["seeds"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+docs-paths: ["docs"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_tmdb:
+    staging:
+      materialized: view
+    marts:
+      materialized: table
+
+seeds:
+  dbt_tmdb:
+    genres:
+      file: seeds/genres.csv
+      header: true
+      delimiter: ","

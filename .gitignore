@@ -1,0 +1,59 @@
+# Python cache and virtualenv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# Airflow specific
+airflow.db
+logs/
+airflow.cfg
+unittests.cfg
+sqlite.db
+*.log
+*.pid
+
+# dbt specific
+dbt_modules/
+dbt_packages/
+target/
+dbt_packages/
+
+# Spark output
+*.crc
+*.parquet
+
+# Mac/Windows/Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Archives
+*.tgz
+*.tar
+*.zip
+*.gz
+
+# Output data (raw or processed if regenerated)
+data/raw/*
+data/processed/*
+!data/raw/.keep
+!data/processed/.keep
+
+# Superset (if used)
+superset_home/
+
+# Secret keys or token files (if accidentally created)
+*.key
+*.pem
+*.env
+.env.local
