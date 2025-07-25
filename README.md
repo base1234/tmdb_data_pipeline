@@ -285,9 +285,13 @@ END AS release_year
 
 ---
 
-## 📸 Preview
+## 📸 Screenshots of Dashboard
+![Screenshot 1](Screenshot%202025-07-24%20203010.png)
+![Screenshot 2](Screenshot%202025-07-24%20203034.png)
+![Screenshot 3](Screenshot%202025-07-24%20203057.png)
+![Screenshot 4](Screenshot%202025-07-24%20203124.png)
+![Screenshot 5](Screenshot%202025-07-24%20203229.png)
 
-> [Insert screenshot or GIF of dashboard here if hosting on GitHub]
 
 ---
 
